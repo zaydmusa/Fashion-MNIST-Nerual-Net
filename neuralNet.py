@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-# layer sizes / parameters to adjust to find optimal accuracy & efficiency
+# layer sizes / parameters to adjust to find optimal accuracy & efficiency (parameters here yield ~85% accuracy)
 hl1 = 512
 hl2 = 128
 learningRate = 0.1
